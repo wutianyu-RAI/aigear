@@ -1,11 +1,12 @@
 # Aigear
-Aigear is an MLOps work orchestration framework that is serverless and aims to help you build pipelines more quickly.
+(Aigear is an MLOps work orchestration framework that is serverless and aims to help you build pipelines more quickly.
 It will not change the programming style of Python and provides an optimized out-of-the-box toolbox.
 
 Aigear believes that everything is a task, and it allows you to make any extensions according to the task.
 Within Aigear, it performs topology analysis on tasks to achieve optimal parallel execution.
 
-You need to note that aigear only executes functions created by yourself in parallel.
+You need to note that aigear only executes functions created by yourself in parallel.)
+aigear is a Python library for deploying and managing machine learning pipelines on Google Cloud. It provides a unified CLI and programmatic interface that automates infrastructure setup (buckets, Pub/Sub, Cloud Scheduler, Cloud Functions, service accounts), standardizes pipeline execution across containerized steps (data fetch, preprocessing, training, evaluation), and ensures reproducibility and cost-efficiency by running workloads on ephemeral VMs that self-terminate after completion. By consolidating configuration, logging, and secret management, aigear reduces DevOps overhead, secures sensitive resources, and enables scalable, repeatable ML workflows with minimal manual intervention.
 
 ## Getting started
 
